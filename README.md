@@ -5,9 +5,9 @@
 - Backend 　:　 Ruby on Rails
 - Frontend 　:　 React, TypeScript
 - DB 　:　 MySQL
-- Docker 使う？
+- Docker,Docker-compose
 - インフラ　:　 AWS,GCP,Heroku とか？
-- UI コンポーネント　：　 Material UI
+- UI コンポーネント　：　 Tailwind
 
 # 画面遷移図
 

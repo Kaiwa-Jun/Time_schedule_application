@@ -1,0 +1,23 @@
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE DATABASE `myapp_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE DATABASE `myapp_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+Started GET "/" for 172.31.0.1 at 2023-02-25 21:59:34 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.0ms | Allocations: 931)
+Completed 200 OK in 46ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 7836)
+
+
+Started GET "/" for 172.31.0.1 at 2023-02-25 22:00:59 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 826)
+Completed 200 OK in 25ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6564)
+
+
+Started GET "/" for 172.31.0.1 at 2023-02-25 22:16:14 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 487)
+Completed 200 OK in 10ms (Views: 7.7ms | Allocations: 1440)
+
+

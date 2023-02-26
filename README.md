@@ -10,7 +10,7 @@
 - UI コンポーネント　：　 Tailwind
 
 # 画面遷移図
-
+![UI遷移図](image/ui.png)
 # ER 図
 
 ![ER図](image/er.png)

@@ -1,15 +1,16 @@
-# time_schedule_app
+# Time_schedule_app
 
 # 使用言語
 
 - Backend 　:　 Ruby on Rails
 - Frontend 　:　 React, TypeScript
 - DB 　:　 MySQL
-- Docker 使う？
+- Docker,Docker-compose
 - インフラ　:　 AWS,GCP,Heroku とか？
-- UI コンポーネント　：　 Material UI
+- UI コンポーネント　：　 Tailwind
 
 # 画面遷移図
+![UI遷移図](image/newUI.png)
 
 # ER 図
 
@@ -55,6 +56,15 @@ To push the current branch and set the remote as upstream, use
 
 ```
 git push --set-upstream origin fix_read.me <--2回目からはgit pushだけでOK
+```
+
+※上記でうまくいかない時
+```
+git pull --rebase origin main
+```
+
+```
+git push --set-upstream origin main
 ```
 
 Github の web ページでプルリクエストを作成する

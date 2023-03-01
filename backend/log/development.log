@@ -28,3 +28,10 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 28ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 6564)
 
 
+Started GET "/" for 172.31.0.1 at 2023-03-01 22:29:54 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 826)
+Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 6563)
+
+

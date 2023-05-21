@@ -151,6 +151,103 @@
   background-clip: content-box;
 }
 
+
+
+
+
+/*====================
+        全体共通
+=====================*/
+/* html{
+  font-size: 62.5%;
+} */
+#title , #time , #button{
+  max-width: 1400px;
+}
+
+/* 見出し部分 */
+
+.titleBlock {
+  text-align: center;
+  margin: 0 auto;
+  width: 450px;
+}
+.titleBlock h1{
+  border: 3px solid #000;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin: 160px 0 60px 0;
+  padding: 25px;
+}
+
+/* 開始・終了ボタン */
+.buttonBlock{
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin: 0 auto;
+  font-size: 0;
+}
+.buttonBlock a{
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+.startButton,
+.endButton{
+  border-radius: 60px;
+  padding: 30px;
+}
+.startButton{
+  background-color: #e57f18;
+}
+.endButton{
+  background-color: rgb(12, 145, 234);
+}
+.startButton a,
+.endButton a {
+  color: #000;
+}
+
+/*====================
+      時間部分
+=====================*/
+/* 全体を囲うコンテナー */
+.container {
+  /* background-color: #808081; */
+  border: 3px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 60px;
+  width: 750px;
+  height: 250px;
+}
+/* 時計の共通スタイル */
+.clock {
+  color: #9e9b9b;
+  /* font-family: 'Share Tech Mono', monospace; */
+  /* text-shadow: 0 0 20px #0aafe6; */
+  line-height: 1.2;
+  text-align: center;
+  padding: 40px 0 30px 130px;
+}
+
+/* 日付のスタイル */
+.clockDate {
+  font-size: 25px;
+}
+
+/* 時間のスタイル */
+.clockTime {
+  font-size: 100px;
+  margin: 20px;
+}
+
+
+
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -274,5 +371,73 @@
   }
   to {
     transform: rotate(0deg);
+  }
+}
+
+
+/*-----------------
+  レスポンシブ　文字サイズ調整
+ ---------------- */
+@media screen and (max-width: 768px) {
+  /* :global(body){
+      max-width: 680px;
+  } */
+
+  #title{
+      width: 380px;
+      margin: 0 auto;
+  }
+  .titleBlock {
+      text-align: center;
+      margin: 0 auto;
+      width: 250px;
+  }
+  .titleBlock h1{
+      border: 3px solid #000;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      margin: 160px 0 60px 0;
+      padding: 25px;
+  }
+  #time{
+      width: 380px;
+      margin: 0 auto;
+  }
+  .container{
+      width: 350px;
+      margin: 0 auto 60px;
+      height: 150px;
+  }
+  .clock {
+      color: #9e9b9b;
+      line-height: 1.2;
+      text-align: center;
+      padding: 25px 45px;
+  }
+  .clockDate {
+      font-size: 17px;
+  }
+  .clockTime {
+      font-size: 50px;
+      margin: 20px;
+  }
+  
+  /* 開始・終了ボタン */
+  .buttonBlock{
+      display: flex;
+      justify-content: space-between;
+      width: 300px;
+      margin: 0 auto;
+      font-size: 0;
+  }
+  .buttonBlock a{
+      font-size: 1.2rem;
+      text-decoration: none;
+      padding: 20px 40px;
+  }
+  .startButton,
+  .endButton{
+      border-radius: 60px;
+      padding: 15px 10px;
   }
 }

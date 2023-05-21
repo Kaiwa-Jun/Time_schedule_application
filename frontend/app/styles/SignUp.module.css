@@ -1,0 +1,58 @@
+/*====================
+        全体共通
+=====================*/
+/* html{
+    font-size: 62.5%;
+} */
+#title , .login , #button{
+    max-width: 1920px;
+}
+
+/* 見出し部分 */
+
+.titleBlock {
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+.titleBlock h1{
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 160px 0 60px 0;
+    padding: 25px;
+}
+/* login */
+.login{
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+    width: 800px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.loginBlock{
+    width: 450px;
+    margin: 0 auto;
+}
+.idPassword{
+    width: 290px;
+    margin: 0 auto;
+}
+.loginTitle h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.textForm input{
+    display: block;
+    padding: 5px 150px 5px 10px;
+    margin-bottom: 20px;
+}
+/* button */
+.button{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+}

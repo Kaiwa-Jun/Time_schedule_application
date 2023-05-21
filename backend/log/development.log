@@ -35,3 +35,24 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 16ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 6563)
 
 
+Started GET "/" for 172.18.0.1 at 2023-05-14 20:51:57 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.6ms | Allocations: 932)
+Completed 200 OK in 55ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 7836)
+
+
+Started GET "/" for 172.18.0.1 at 2023-05-15 15:59:53 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | Allocations: 826)
+Completed 200 OK in 16ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 6563)
+
+
+Started GET "/" for 172.18.0.1 at 2023-05-21 20:40:27 +0900
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.7ms | Allocations: 826)
+Completed 200 OK in 18ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6562)
+
+

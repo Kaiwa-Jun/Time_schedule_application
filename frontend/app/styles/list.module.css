@@ -1,0 +1,98 @@
+/*====================
+        全体共通
+=====================*/
+/* html{
+    font-size: 62.5%;
+} */
+#title , .login , #button{
+    max-width: 1920px;
+}
+
+/* 見出し部分 */
+
+.titleBlock {
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+.titleBlock h1{
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 160px 0 60px 0;
+    padding: 25px;
+}
+/* login */
+.login{
+    display: block;
+    margin: 0 auto;
+    padding: 60px;
+    width: 800px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.loginBlock{
+    width: 450px;
+    margin: 0 auto;
+}
+.idPassword{
+    width: 290px;
+    margin: 0 auto;
+}
+.loginTitle h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.textForm input{
+    display: block;
+    padding: 5px 150px 5px 10px;
+    margin-bottom: 20px;
+}
+
+/* 開始・終了ボタン */
+.buttonBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.buttonBlock a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.backButton{
+    border-radius: 60px;
+    padding: 30px;
+}
+
+.backButton{
+    background-color: rgb(12, 145, 234);
+}
+.backButton a {
+    color: #000;
+}
+
+/* 一覧部分 */
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px; */
+    margin-bottom: 60px;
+}
+.list th ,.list td{
+    padding: 20px 100px;
+    border: 1px solid #000;
+}
+
+.list tr{
+    width: 300px;
+}
+

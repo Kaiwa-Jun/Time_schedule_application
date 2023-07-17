@@ -126,3 +126,26 @@ docker-compose stop
 ```
 docker container ls -a
 ```
+
+# DBの確認方法
+### Dockerを起動し、DBコンテナに接続
+```
+docker-compose exec db bash
+```
+### MySQLにログイン
+```
+mysql -u root -p
+```
+### パスワードを求められたら、Docker構成ファイル（docker-compose.yml）で設定したパスワードを入力
+
+### 使用するデータベースを確認
+```
+SHOW DATABASES;
+このコマンドは、利用可能なすべてのデータベースを表示します。
+```
+### 目的のデータベースを選択します（ここでは myapp_developmentを例にします）：
+```
+USE myapp_development;
+users テーブルの内容を表示します：
+SELECT * FROM users;
+```

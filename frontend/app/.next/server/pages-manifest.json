@@ -1,7 +1,6 @@
 {
-  "/_document": "pages/_document.js",
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/login": "pages/login.js",
-  "/[userId]/timelist": "pages/[userId]/timelist.js"
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/signup": "pages/signup.js"
 }

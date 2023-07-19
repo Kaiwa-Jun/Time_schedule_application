@@ -3,6 +3,7 @@ import Head from "next/head";
 import axios from "axios";
 import styles from "@/styles/login.module.css";
 import { loginUser } from "./api/usersession";
+import Link from "next/link";
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -34,6 +35,14 @@ const Login = () => {
       <Head>
         <title>ログイン画面</title>
       </Head>
+      <div>
+        <div>
+          <Link href={`/signup`}>新規登録</Link>
+        </div>
+        <div>
+          <Link href={`/`}>ホーム</Link>
+        </div>
+      </div>
       <div className={styles.title}>
         <div className={styles.titleBlock}>
           <h1>学習時間管理アプリ</h1>

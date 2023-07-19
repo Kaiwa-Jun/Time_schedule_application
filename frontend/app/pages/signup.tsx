@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import styles from "@/styles/login.module.css";
 import { registerUser } from "./api/usersession";
+import Link from "next/link";
 
 const SignUp = () => {
   const [email, setEmail] = useState("");
@@ -26,6 +27,14 @@ const SignUp = () => {
       <Head>
         <title>ログイン画面</title>
       </Head>
+      <div>
+        <div>
+          <Link href={`/login`}>ログイン</Link>
+        </div>
+        <div>
+          <Link href={`/`}>ホーム</Link>
+        </div>
+      </div>
       <div className={styles.title}>
         <div className={styles.titleBlock}>
           <h1>学習時間管理アプリ</h1>

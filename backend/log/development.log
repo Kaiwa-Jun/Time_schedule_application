@@ -6146,3 +6146,11 @@ Processing by Api::V1::RegistrationsController#create as JSON
 Completed 201 Created in 283ms (Views: 0.5ms | ActiveRecord: 8.3ms | Allocations: 3210)
 
 
+Started GET "/" for 192.168.16.1 at 2023-07-20 02:29:29 +0900
+  [1m[36mActiveRecord::SchemaMigration Pluck (4.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/bundle/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 824)
+Completed 200 OK in 24ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 6606)
+
+
